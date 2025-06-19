@@ -1,6 +1,6 @@
 import React from "react";
 import { BookOpen } from "lucide-react";
-import certificateImg from "../assets/kalani.png";
+import certificateImg from "../assets/kalani.PNG";
 import comursImg from "../assets/comurs.PNG";
 
 const publications = [
