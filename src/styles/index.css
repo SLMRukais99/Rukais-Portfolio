@@ -1,0 +1,31 @@
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #f7f8fc;
+  scroll-behavior: smooth;
+}
+.section-padding {
+  padding: 60px 0;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+    text-align: left;
+}
+::-webkit-scrollbar {
+  width: 9px;
+  background: #e9e9ec;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #6366f1, #a21caf);
+  border-radius: 10px;
+}
+.bg-gradient-to-r {
+  background: linear-gradient(90deg, #2563eb 0%, #a21caf 100%);
+}
+.bg-gradient-to-br {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f3e8ff 100%);
+}
+.bg-gradient-to-tr {
+  background: linear-gradient(45deg, #2563eb 0%, #a21caf 100%);
+}

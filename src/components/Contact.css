@@ -1,0 +1,105 @@
+.contact-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #22223b;
+  margin-bottom: 12px;
+}
+
+.contact-bar {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.contact-card {
+  background: linear-gradient(120deg, #eff6ff 0%, #ede9fe 100%);
+  border-radius: 18px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.contact-icon.blue {
+  color: #2563eb;
+}
+
+.contact-icon.green {
+  color: #059669;
+}
+
+.contact-icon.linkedin {
+  color: #0a66c2;
+}
+
+.contact-icon.github {
+  color: #22223b;
+}
+
+.contact-icon.red {
+  color: #ef4444;
+}
+
+.contact-text {
+  font-size: 1.15rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.contact-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.18s;
+}
+
+.contact-link.linkedin {
+  color: #0a66c2;
+}
+
+.contact-link.github {
+  color: #22223b;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: #7c3aed;
+}
