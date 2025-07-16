@@ -6,7 +6,7 @@ const portfolioData = {
   experience: [
     {
       company: "Intervest Software Technologies (Private) Limited",
-      position: "Software Engineering Intern",
+      position: "Business Analyst Intern",
       period: "Feb 2024 - Aug 2024",
       location: "Colombo 05, Sri Lanka",
       projects: ["Staysure 1.5", "Avanti Travel Insurance"],
