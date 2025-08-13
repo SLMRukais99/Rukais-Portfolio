@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Briefcase, Calendar, Award, MapPin, FolderOpen } from "lucide-react";
 
 // Portfolio data (same as yours)
@@ -6,7 +6,7 @@ const portfolioData = {
   experience: [
     {
       company: "Intervest Software Technologies (Private) Limited",
-      position: "Business Analyst Intern",
+      position:"Software Engineer Internship",
       period: "Feb 2024 - Aug 2024",
       location: "Colombo 05, Sri Lanka",
       projects: ["Staysure 1.5", "Avanti Travel Insurance"],
